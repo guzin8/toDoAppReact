@@ -1,3 +1,17 @@
+Front-end / React
+Öncelikle pages klasörüne ana sayfa, itemların listelendiği sayfa ve item ekleme sayfasını yazdım. Ana sayfada giriş yapmış olma olmama durumuna göre değişecek olan sayfalar layouts klasöründe signedIn ve SignedOut componentleridir. Main’de bu işlemi gerçekleştirecek handle fonksiyonlarını yazdım ve isAuthenticated ile kontrol ettim. 
+
+ToDoItems sayfasında ise useEffect(component yüklendiğinde ilk çalışacak fonksiyon) ile serviste oluşturduğum backendden Axios yardımıyla çektiğim verilere eriştiğim fonksiyonu yazdım ve itemlara eriştim. 
+
+AddItem sayfasında formik kullanarak form oluşturdum onSubmit ile tıklandığında ürünleri eklemesi için servisten add fonksiyonunu çağırdım ancak ekleme kısmını başaramadığım için post işlemlerim eksik kaldı ancak console.log ile verilerin alındığını gözlemledim.
+
+Son olarak da app.jsde  ana sayfa, itemların listelendiği sayfa ve item ekleme sayfalarına route adreslerini verdim. 
+
+Projeyi çalıştırdığımda listeleme, anasayfa ve ekleme sayfasını gözlemledim. Ancak diğer kısımları gerçekleştiremedim. 
+
+Heroku’ya react projemi deploy ettim. Linki: https://heroku-todoapp-react.herokuapp.com/ 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +82,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
