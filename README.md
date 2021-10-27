@@ -10,6 +10,7 @@ Son olarak da app.jsde  ana sayfa, itemların listelendiği sayfa ve item ekleme
 Projeyi çalıştırdığımda listeleme, anasayfa ve ekleme sayfasını gözlemledim. Ancak diğer kısımları gerçekleştiremedim. 
 
 Heroku’ya react projemi deploy ettim. Linki: https://heroku-todoapp-react.herokuapp.com/ 
+Ancak heroku'da veritabanındaki nesnelerimi gösteremedim. Localhost'da gözüküyor. http://localhost:3000/itemsList 
 
 
 # Getting Started with Create React App
