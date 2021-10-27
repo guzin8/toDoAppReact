@@ -1,4 +1,5 @@
 Front-end / React
+
 Öncelikle pages klasörüne ana sayfa, itemların listelendiği sayfa ve item ekleme sayfasını yazdım. Ana sayfada giriş yapmış olma olmama durumuna göre değişecek olan sayfalar layouts klasöründe signedIn ve SignedOut componentleridir. Main’de bu işlemi gerçekleştirecek handle fonksiyonlarını yazdım ve isAuthenticated ile kontrol ettim. 
 
 ToDoItems sayfasında ise useEffect(component yüklendiğinde ilk çalışacak fonksiyon) ile serviste oluşturduğum backendden Axios yardımıyla çektiğim verilere eriştiğim fonksiyonu yazdım ve itemlara eriştim. 
